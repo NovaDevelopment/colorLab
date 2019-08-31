@@ -1,0 +1,39 @@
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+.clearLeft {
+    clear: left;
+}
+.clearRight {
+    clear: right;
+}
+.clearBoth {
+    clear: both;
+}
+.noMargin {
+    margin: 0;
+}
+.noPadding {
+    padding: 0;
+}
+.vertCenter-Parent {
+    position: relative;
+}
+.vertCenter {
+    position: absolute;
+    top: 50%;
+    transform: translate(-100%, -50%);
+}
+#color-picker-container {
+    margin-top: 10px;
+}
+#selectedColor {
+    width: 25pt;
+    height: 25pt;
+}
+#colorSampleCaption {
+    width: 150px;
+}

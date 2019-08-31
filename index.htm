@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="https://cdn.jsdelivr.net/npm/@jaames/iro/dist/iro.min.js"></script>
+        <title>ColorLab | Simple Color Creation, Sharing, and Viewing</title>
+    </head>
+    <body>
+        <div class="clearBoth">
+            <h1>ColorLab</h1>
+            <sub>Simple Color Creation, Sharing, and Viewing</sub>
+        </div>
+        <div class="floatLeft">
+            <h2>Select a Color</h2>
+            <div id="color-picker-container"></div>
+        </div>
+        <div class="floatRight">
+            <h2>Color Information</h2>
+            <div>
+                <div class="floatLeft" id="selectedColor"></div>
+                <div class="floatRight vertCenter-Parent"><p class="vertCenter" id="colorSampleCaption">Color Sample</p></div>
+            </div>
+            <div class="clearBoth">
+                <div>
+                    <span>HEX: </span>
+                    <input type="text" id="HEXColor" placeholder="HEX Color">
+                </div>
+                <div>
+                    <span>RGB: </span>
+                    <input type="text" id="RGBColorVal" placeholder="RGB Color Value">
+                </div>
+                <div>
+                    <span>HSL: </span>
+                    <input type="text" id="HSLColorVal" placeholder="HSL Color Value">
+                </div>
+                <div>
+                    <span>HSV: </span>
+                    <input type="text" id="HSVColorVal" disabled placeholder="HSV Color Value">
+                </div>
+            </div>
+        </div>
+        <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d6a80132ce82e69"></script> 
+    </body>
+    <script type="text/javascript" src="init.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</html>
